@@ -1,0 +1,48 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+}
+
+.container {
+    width: 100%;
+    border: 1px solid black;
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.item {
+    width: 24%;
+    height: 15rem;
+}
+
+.green {
+    background: lightgreen;
+}
+
+.blue {
+    background: dodgerblue;
+}
+
+.violet {
+    background: darkviolet;
+}
+
+.orange {
+    background: orange;
+}
+
+.red {
+    background: indianred;
+}
+
+.item9 {
+    height: 68rem;
+}

@@ -1,0 +1,62 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    height: 50rem;
+}
+
+.item {
+    width: 23%;
+    height: 15rem;
+}
+
+.item5 {
+    width: 100%;
+}
+
+.green {
+    background: rgb(7, 214, 135);
+}
+
+.blue {
+    background: rgb(0, 162, 255);
+}
+
+.violet {
+    background: violet;
+}
+
+.orange {
+    background: orange;
+}
+
+.red {
+    background: red;
+}
+
+@media screen and (max-width: 1024px){
+    .container {
+        width: 100%;
+    }
+
+    .item {
+        width: 47%;
+        height: 10rem;
+    }
+
+    .item5 {
+        width: 100%;
+    }
+}

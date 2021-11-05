@@ -1,0 +1,29 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: black;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    border: 1px solid wheat;
+    height: 70rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item {
+    background: aquamarine;
+    width: 25%;
+    height: 25rem;
+
+}
+
+.blue {
+    background: dodgerblue ;
+}
